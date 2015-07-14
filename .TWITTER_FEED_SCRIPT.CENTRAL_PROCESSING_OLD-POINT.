@@ -1,0 +1,847 @@
+// V1TAS's VIEWMODEL CONFIG V.2.3
+// LAST UPDATE 17/08/2012
+// http://www.youtube.com/watch?v=nfN5jfpDWEw&feature=plcp
+//—————————————————————————————————————————————————————————
+// Counter-Strike: Global Offensive Viewmodel Script       |
+//—————————————————————————————————————————————————————————
+//Install Script:
+//==================
+//- open Steam Folder :
+//> Steam/SteamApps/Common/Counter-Strike Global Offensive/csgo/cfg
+//- Create file Autoexec.cfg
+//- Copy and Paste This script
+//
+//".----------------------------.
+//"|        CONTROL KEY :       |
+//"|                            |
+//"|           .-----.          |
+//"|           |     |          |
+//"|           |  ^  |          |
+//"|           |     |          |
+//"|           .-----.          |
+//"|    .-----..-----..-----.   |
+//"|    |     ||     ||     |   |
+//"|    |  <  ||  ?  ||  >  |   |
+//"|    |     ||     ||     |   |
+//"|    .-----..-----..-----.   |
+//"|                            |
+//".----------------------------.
+//—————————————————————————————————————————————————————————
+// Down & UP viewmodel position.                           |
+//—————————————————————————————————————————————————————————
+alias "vh_y2"   "viewmodel_offset_y  2;  echo_y_2; alias toggle_down vh_y1; Notice1"
+alias "vh_y1"   "viewmodel_offset_y  1;  echo_y_1; alias toggle_down vh_y0; alias toggle_up vh_y2"
+alias "vh_y0"   "viewmodel_offset_y  0;  echo_y_0; alias toggle_down vh_y-1;alias toggle_up vh_y1"
+alias "vh_y-1"  "viewmodel_offset_y -1; echo_y_-1; alias toggle_down vh_y-2;alias toggle_up vh_y0"
+alias "vh_y-2"  "viewmodel_offset_y -2; echo_y_-2; Notice2                 ;alias toggle_up vh_y-1"
+ vh_y0
+
+Bind "downarrow" "toggle_down"
+Bind "uparrow" "toggle_up"
+
+alias echo_y_2  "echo Change value to viewmodel_offset_y 2"
+alias echo_y_1  "echo Change value to viewmodel_offset_y 1"
+alias echo_y_0  "echo Change value to viewmodel_offset_y 0"
+alias echo_y_-1 "echo Change value to viewmodel_offset_y -1"
+alias echo_y_-2 "echo Change value to viewmodel_offset_y -2"
+
+//—————————————————————————————————————————————————————————
+// Left & Right viewmodel position.                        |
+//—————————————————————————————————————————————————————————
+alias "vh_x-2"  "viewmodel_offset_x -2; echo_x_-2; alias toggle_right vh_x-1; Notice2"
+alias "vh_x-1"  "viewmodel_offset_x -1; echo_x_-1; alias toggle_right vh_x0; alias toggle_left vh_x-2"
+alias "vh_x0"   "viewmodel_offset_x  0; echo_x_0 ; alias toggle_right vh_x1; alias toggle_left vh_x-1"
+alias "vh_x1"   "viewmodel_offset_x  1; echo_x_1 ; alias toggle_right vh_x2; alias toggle_left vh_x0"
+alias "vh_x2"   "viewmodel_offset_x  2; echo_x_2 ; Notice1                 ; alias toggle_left vh_x1"
+ vh_x0
+
+Bind "leftarrow" "toggle_left"
+Bind "rightarrow" "toggle_right"
+
+alias echo_x_-2 "echo Change value to viewmodel_offset_x -2;"
+alias echo_x_-1 "echo Change value to viewmodel_offset_x -1;"
+alias echo_x_0  "echo Change value to viewmodel_offset_x 0;" 
+alias echo_x_1  "echo Change value to viewmodel_offset_x 1;"
+alias echo_x_2  "echo Change value to viewmodel_offset_x 2;"
+
+//——————————————————————————————-———————————————————————————
+//—————————————————————————————————————————————————————————-
+alias Notice1 "echo Viewmodel is set to the maximum value!"
+alias Notice2 "echo Viewmodel is set to the minimum value!"
+
+ viewmodel_offset_z "-2"
+ viewmodel_fov "65"
+
+ clear
+
+echo "V1TAS's VIEWMODEL CONFIG V.2.3"
+==================
+
+Install Script:
+◾ open Steam Folder : 
+
+Steam/SteamApps/Common/Counter-Strike Global Offensive/csgo/cfg
+
+◾Create file Autoexec.cfg
+
+http://www.computerworld.com/article/2516761/government-it/nasa-s-mars-rover-starts-to-think-for-itself.html
+               	      
+
+
+
+ 	
+  Trending:
+Interactive map: 100 Best Places to Work in IT 2015·
+ Crash Course: IoT and analytics·
+ Resources/White Papers
+ 
+
+
+ computerworld   
+
+
+
+
+▾
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+Cloud Computing▻ All Cloud Computing
+Cloud Security
+Cloud Storage
+Hybrid Cloud
+Private Cloud
+Public Cloud
+
+Computer Hardware▻ All Computer Hardware
+Apple Mac
+Chromebooks
+Computer Peripherals
+Computer Processors
+Network Servers
+Solid State Drives
+Windows PCs
+
+Consumerization of IT▻ All Consumerization of IT
+Bring Your Own Device (BYOD)
+Gamification
+Location-Based Services
+Personal Technology
+
+Data Center▻ All Data Center
+Data Storage
+Disaster Recovery
+High-Performance Computing (HPC)
+Infrastructure Management
+Sustainable IT
+Virtualization
+
+Emerging Technology▻ All Emerging Technology
+3D Printing
+Environment
+Internet of Things
+Nanotechnology
+Robotics
+Space Technology
+Telematics
+Wearables
+
+Enterprise Applications▻ All Enterprise Applications
+Application Development
+Big Data
+Business Intelligence (BI)
+Business Process Management (BPM)
+CRM
+Collaboration
+Content/Document Management
+Data Analytics
+Database Administration
+Desktop Apps
+Enterprise Architecture
+Enterprise Resource Planning (ERP)
+Open Source
+Social Business
+Software Integration
+Software as a Service (SaaS)
+Unified Communications (UC)
+
+IT Management▻ All IT Management
+IT Careers
+IT Industry
+IT Outsourcing
+IT Personnel
+IT Project Management
+IT Skills & Training
+Technology Law & Regulation
+
+Internet▻ All Internet
+E-commerce
+Search
+Social Media
+Web Apps
+Web Browsers
+
+Mobile & Wireless▻ All Mobile & Wireless
+Android
+Apple iOS
+BlackBerry
+Mobile Apps
+Mobile Device Management (MDM)
+Mobile Payments
+Mobile Security
+Smartphones
+Tablets
+Windows Phone
+Wireless Carriers
+
+Networking▻ All Networking
+Broadband
+Network Hardware
+Network Security
+Network Software
+Wireless Networking
+
+Operating Systems▻ All Operating Systems
+Chrome OS
+Linux
+Mac OS X
+Microsoft Windows
+
+Security▻ All Security
+Application Security
+Cyberattacks
+Cybercrime & Hacking
+Data Privacy
+Data Security
+Encryption
+Endpoint Security
+Malware & Vulnerabilities
+
+Vertical IT▻ All Vertical IT
+Financial IT
+Government IT
+Healthcare IT
+Retail IT
+Small Enterprise IT
+
+All Topics
+News
+Features
+Reviews
+Blogs
+Opinions
+Insider
+Shark Tank
+Slideshows
+Video
+Digital Magazine
+Newsletters
+Events
+IT Job Search
+Resources/White Papers
+ 
+
+
+
+  
+  
+See complete coverage of Demo Traction 2015 on IDG.tv
+
+Watch Now
+ > 
+> 
+
+ 
+News
+
+NASA's Mars rover starts to think for itself
+ 
+
+
+More like this
+
+
+NASA: Mars rover goes quiet as Martian winter begins
+
+
+
+NASA abandons Mars rover rescue efforts
+
+
+
+NASA tries to waken robotic Mars rover
+
+
+
+
+
+
+Uploaded AI software aims to speed NASA's analysis of rocks found on Martian surface
+ 
+␡
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+␡
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+reCAPTCHA challenge image 
+Get a new challengeGet an audio challengeGet a visual challengeHelp  
+
+
+  
+
+--------------------------------------------------------------------------------
+
+
+
+␡
+
+
+
+
+␡
+
+
+
+
+
+
+Sharon Gaudin By Sharon Gaudin 
+ 
+Follow 
+
+
+ 
+Computerworld | Mar 24, 2010 8:21 AM PT  
+
+
+ 
+
+
+
+
+  
+
+After seven years of working on the surface of Mars, NASA's Mars rover Opportunity has been upgraded to allow it to make some of its own decisions.
+
+
+sdn nsa monitoring spying 
+ACLU asks court to immediately end NSA phone snooping 
+
+A U.S. appeals court should immediately shut down the National Security Agency's bulk collection of
+Read Now
+NASA announced Tuesday that its engineers this winter uploaded artificial intelligence software to enable the Mars rover to decide on its own whether it wants to stop and analyze rocks spotted during its travels across the Martian surface. The space agency noted that the upgrade will provide a good test of robotic autonomy, which it hopes to use more fully in future NASA space missions.
+
+"We spent years developing this capability on research rovers in the Mars Yard here at the Jet Propulsion Laboratory," said Tara Estlin, a senior member of the Artificial Intelligence Group at the NASA Jet Propulsion Laboratory, in a statement. "Six years ago, we never expected that we would get a chance to use it on Opportunity."
+
+NASA has two rovers on Mars -- Spirit and Opportunity. The twin rovers have been slowly trekking across the planet's surface for years, sending images and data back to NASA scientists. 
+
+The robots are among the most advanced technology ever built at the Jet Propulsion Lab, said Bruce Banerdt, a project scientist for the Mars Exploration Rovers, said in an earlier interview.
+
+Overall, Opportunity rover has had better luck than its counterpart, Spirit.
+
+In January, NASA announced that Spirit is permanently stuck in Martian dirt. Nonetheless, NASA scientists hope that Spirit can conduct experiments from where it sits. 
+
+Meanwhile, Opportunity, is still mobile.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The artificial intelligence software is designed to Opportunity's computer system recognize rocks that meet specified, pre-programmed criteria, such as a rounded shape or certain color. If the object meets specific criteria, the rover then will use its narrower-angle panoramic camera to take multiple images of it. 
+
+"It's a way to get some bonus science," said Estlin.
+
+The new software is called Autonomous Exploration for Gathering Increased Science, or AEGIS.
+
+Previously, scientists at NASA would have to determine when rocks needed more analysis after studying photos sent back from the rover.
+
+Sharon Gaudin covers the Internet and Web 2.0, emerging technologies, and desktop and laptop chips for Computerworld. Follow Sharon on Twitter at @sgaudin, or subscribe to Sharon's RSS feed . Her e-mail address is sgaudin@computerworld.com.
+
+RELATED TOPICS Government IT
+ Application Development
+ Emerging Technology
+ 
+Sharon Gaudin 
+
+Sharon Gaudin — Senior Reporter 
+
+Sharon Gaudin covers the Internet, social media, cloud computing and emerging technologies for Computerworld.
+👤  
+✉  
+  
+  
+  
+   
+▻ From CIO: 8 Free Online Courses to Grow Your Tech Skills  
+ 💬View Comments  
+
+You Might Like
+
+
+
+
+
+
+
+by Taboola
+
+
+
+Promoted Links
+.
+
+
+
+
+
+An incredibly shrinking Firefox faces endangered species status
+
+
+
+
+
+
+4 Billionaires Say: Something Big Coming Soon In U.S.AStansberry Research
+
+
+
+
+
+
+Keep Windows 10 preview up to date -- or face a dead PC
+
+
+
+
+
+
+What Donald Trump Thinks about Home Solar PanelsSolar America
+
+
+
+
+
+
+After being dumped by Firefox, Google wants users back
+
+
+
+
+
+
+Your Cable Company Doesn't Want You To Know ThisThe Motley Fool
+
+
+
+
+
+
+Reduce the footprint of your data center by 70%
+
+
+
+
+
+
+Transferring your credit card balance every 21 months is i…NextAdvisor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+Join the discussion
+
+Be the first to comment on this article. Our Commenting Policies
+
+
+
+
+
+
+
+
+
+
+Login
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Write a comment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0 Comments
+Sort
+Subscribe
+RSS
+
+
+
+
+
+
+ 
+ 
+
+What Readers Like
+
+Microsoft could write off billions on Nokia deal as early as Wednesday
+
+Microsoft could announce a write-off of a big part of its 2013 Nokia acquisition as early as Wednesday.
+iPhone 7 rumors iPhone 6s specs Apple, Inc. 
+RUMORS: Apple iPhone 6S specs: Force Touch (don't say iPhone 7 OK?)
+
+
+Review: Skype for Business pros & cons (video)
+
+	
+ 
+Newsletters
+
+Sign up and receive the latest news, reviews and trends on your favorite technology topics.
+
+Get our daily newsletter
+
+ Go 
+ 
+
+
+
+10 questions, 10 answers for Windows 10
+
+Windows 10's launch is less than six weeks away, but lots of questions still remain about the new...
+ 
+
+
+
+Short Take: Apple Music, Siri integration and other WWDC thoughts
+
+Computerworld's Ken Mingis and Keith Shaw discuss the 2015 Apple Worldwide Developer Conference...
+ 
+
+
+BrandPost
+Learn more
+racers 3 
+
+Sponsored by Informatica
+
+Mastering Big Data to Drive Great Customer Experience
+
+
+int 0998 blog ssd 
+
+Sponsored by Intel
+
+The Cloud with an SSD Backbone
+
+
+tablet collab 
+
+Sponsored by Intel
+
+Building an Efficient and Secure Workplace
+
+ 
+
+  
+
+
+Popular Resources 
+
+KnowledgeVault
+Sponsored
+
+Active Information Management: A Different Approach to Solving Big Data Challenges 
+
+
+ 
+
+White Paper
+
+Advanced Case Management for Financial Services 
+
+
+ 
+
+White Paper
+
+Advanced Case Management Leadership Guide 
+
+
+ 
+
+White Paper
+
+Are You Ready for Mobile Capture? 
+
+
+ 
+
+White Paper
+
+Buyer Brief: Improving the Management and Governance of Unstructured Data 
+
+
+    Go 
+  
+
+Top Stories
+
+hackers
+
+Hacking Team CEO insists tools weren't compromised
+
+The founder of the Italian surveillance software company that suffered a disastrous data breach last...
+ 
+
+insurance 
+
+Assessing the value of cyber-insurance 
+
+A good policy would be welcome if a data breach ever hit our manager’s company, but what constitutes a...
+ 
+
+well fargo demo home pageon ipad 
+ 
+Wells Fargo's mobile banking redesign includes biometrics, tracks customer 
+
+Input from Wells Fargo's commercial banking customers has been vital in steering a massive mobile...
+ 
+
+jail cells 
+
+How should an underage cyberthief be dealt with? 
+
+If our goal in sentencing is to reduce such crimes, you have to ask how sending kids to prison...
+ 
+  
+
+Sponsored Links
+ TrackVia - Custom, Low-code Manufacturing Apps. Free 30-day Trial!  
+ Simplify Complex IT Systems with Salesforce and Bluewolf  
+ Online Master of Science in Information Systems at Northwestern University  
+   Computerworld The Voice of Business Technology Follow us 
+
+
+
+
+Cloud Computing ·
+ Computer Hardware ·
+ Consumerization of IT ·
+ Data Center ·
+ Emerging Technology ·
+ Enterprise Applications ·
+ IT Management ·
+ Internet ·
+ Mobile & Wireless ·
+ Networking ·
+ Operating Systems ·
+ Security ·
+ Vertical IT 
+  All Topics·
+ News·
+ Features·
+ Reviews·
+ Blogs·
+ Opinions·
+ Insider·
+ Shark Tank·
+ Slideshows·
+ Video·
+ Newsletters·
+ Events·
+ Resources/White Papers
+  
+About Us 
+Contact 
+Privacy Policies 
+Advertising 
+Careers at IDG 
+Site Map 
+Ad Choices 
+ 
+
+Copyright © 1994 - 2015 Computerworld, Inc. All rights reserved.
+
+
+
+Explore the IDG Network descend
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+ 
+
+
+	
+ 
+                                                
+
+ 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
